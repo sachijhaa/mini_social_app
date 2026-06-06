@@ -77,3 +77,23 @@ project-root/
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
+### 2️⃣ Backend Setup
+```bash
+cd backend
+npm install
+
+Create .env file:
+```bash
+MONGO_URI=your_mongodb_atlas_connection_string
+PORT=5000
+JWT_SECRET=your_secret_key
+
+Run backend:
+```bash
+node server.js
+### 3️⃣ Frontend Setup
+```bash
+cd frontend
+npm install
+npm start
