@@ -147,7 +147,7 @@ export default function PostCard({
       {post.image && (
 
         <img
-          src={`http://localhost:5000/uploads/${post.image}`}
+          src={`https://mini-social-app-oh75.onrender.com/uploads/${post.image}`}
           alt="post"
           style={{
             width: "100%",
