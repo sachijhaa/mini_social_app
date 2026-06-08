@@ -7,7 +7,7 @@ const postRoutes = require("./routes/postRoutes");
 require("dotenv").config();
 
 const app = express();
-
+console.log("NEW BACKEND DEPLOYED");
 app.use(cors());
 app.use(express.json());
 app.use("/api/auth", authRoutes);
